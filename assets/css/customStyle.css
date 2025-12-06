@@ -1,0 +1,12 @@
+.companySelectionDiv {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+span.app-brand-text.demo.menu-text.fw-bold {
+  padding-left: 4px;
+}
+
+th {
+  font-weight: bold !important;
+}

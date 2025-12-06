@@ -1,0 +1,268 @@
+RewriteEngine On
+
+# Redirect /login to login.php and ensure /login.php redirects to /login
+RewriteCond %{THE_REQUEST} \s/login\.php [NC]
+RewriteRule ^login\.php$ /login [R=301,L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+RewriteRule ^dashboard$ dashboard.php [L]
+
+RewriteRule ^under-development /modules/misc/not_implemented.php [L]
+
+
+# Redirect /quotation/list to /modules/quotations/list.php
+RewriteRule ^quotation/list$ /modules/quotations/list.php [L]
+RewriteRule ^quotation/new$ /modules/quotations/new.php [L]
+RewriteRule ^quotation/edit/([^/]*)$ /modules/quotations/edit.php?documentID=$1 [L]
+RewriteRule ^quotation/edit([^/]*)$ /modules/quotations/edit.php?documentID=$1 [L]
+RewriteRule ^quotation/preview/([^/]*)$ /modules/quotations/preview.php?documentID=$1 [L]
+RewriteRule ^quotation/preview([^/]*)$ /modules/quotations/preview.php?documentID=$1 [L]
+RewriteRule ^quotation/view/([^/]*)$ /modules/publicview/quotation_customer_view.php?documentID=$1 [L]
+RewriteRule ^quotation/view([^/]*)$ /modules/publicview/quotation_customer_view.php?documentID=$1 [L]
+RewriteRule ^quotation/download/([^/]*)$ /modules/publicview/generate_pdf.php?isdownload=1&documentID=$1 [L]
+RewriteRule ^quotation/print/([^/]*)$ /modules/publicview/generate_pdf.php?documentID=$1 [L]
+RewriteRule ^order/download/([^/]*)$ /modules/publicview/generate_pdf_ecommerce.php?isdownload=1&documentID=$1 [L]
+RewriteRule ^order/print/([^/]*)$ /modules/publicview/generate_pdf_ecommerce.php?documentID=$1 [L]
+
+
+
+# Redirect /quotation/list to /modules/quotations/list.php
+RewriteRule ^salesorders/list$ /modules/salesorders/list.php [L]
+RewriteRule ^salesorders/new$ /modules/salesorders/new.php [L]
+RewriteRule ^salesorders/edit/([^/]*)$ /modules/salesorders/edit.php?documentID=$1 [L]
+RewriteRule ^salesorders/edit([^/]*)$ /modules/salesorders/edit.php?documentID=$1 [L]
+
+# E-commerce Orders
+RewriteRule ^ecommerce/list$ /modules/e-commerceorders/list.php [L]
+RewriteRule ^ecommerce/edit/([^/]*)$ /modules/e-commerceorders/edit.php?documentID=$1 [L]
+RewriteRule ^ecommerce/edit([^/]*)$ /modules/e-commerceorders/edit.php?documentID=$1 [L]
+RewriteRule ^order/view/([^/]*)$ /modules/publicview/order_customer_view.php?documentID=$1 [L]
+RewriteRule ^order/view([^/]*)$ /modules/publicview/order_customer_view.php?documentID=$1 [L]
+RewriteRule ^ecommerce/preview/([^/]*)$ /modules/e-commerceorders/preview.php?documentID=$1 [L]
+RewriteRule ^ecommerce/preview([^/]*)$ /modules/e-commerceorders/preview.php?documentID=$1 [L]
+
+# Receive E-commerce Orders
+RewriteRule ^ecommerce/receiveOrders$ /ajax/receive_ecommerce_orders.php [L]
+
+# Invoice
+RewriteRule ^invoice/list$ /modules/invoice/list.php [L]
+RewriteRule ^invoice/new$ /modules/invoice/new.php [L]
+RewriteRule ^invoice/edit/([^/]*)$ /modules/invoice/edit.php?invoiceID=$1 [L]
+RewriteRule ^invoice/edit([^/]*)$ /modules/invoice/edit.php?invoiceID=$1 [L]
+
+
+
+#Warehouse and Transfers
+RewriteRule ^warehouse/list$ /modules/warehouse/list.php [L]
+RewriteRule ^warehouse/transfer/list$ /modules/warehouse/transfer/list.php [L]
+RewriteRule ^warehouse/transfer/new$ /modules/warehouse/transfer/new.php [L]
+RewriteRule ^warehouse/transfer/edit/([^/]*)$ /modules/warehouse/transfer/edit.php?transferID=$1 [L]
+RewriteRule ^warehouse/new$ /modules/warehouse/list.php?addnew [L]
+RewriteRule ^warehouse/edit/([^/]*)$ /modules/warehouse/edit.php?warehouseID=$1 [L]
+RewriteRule ^warehouse/edit([^/]*)$ /modules/warehouse/edit.php?warehouseID=$1 [L]
+
+#Order Management
+RewriteRule ^order-management/list$ /modules/order-management/list.php [L]
+RewriteRule ^order-management/order/edit/([^/]+)$ /modules/order-management/edit.php?orderID=$1 [QSA,L]
+
+#Pick and Pack
+RewriteRule ^order-management/picknpack/new$ /modules/order-management/pick&pack/new.php [L]
+RewriteRule ^order-management/picknpack/edit/([^/]*)$ /modules/order-management/pick&pack/edit.php?gdnID=$1 [L]
+RewriteRule ^order-management/picknpack/list$ /modules/order-management/pick&pack/list.php [L]
+#Logistics Shipment
+RewriteRule ^shipment/list$ /modules/logistic/list.php [L]
+RewriteRule ^shipment/order/edit/([^/]*)$ /modules/logistic/edit.php?shipmentID=$1 [L]
+
+#Accounting
+RewriteRule ^payable/list$ /modules/accounting/accountsPayableList.php [L]
+RewriteRule ^receivable/list$ /modules/accounting/accountsReceivableList.php [L]
+RewriteRule ^ledger/list$ /modules/accounting/generalLedgerList.php [L]
+RewriteRule ^accounts/list$ /modules/accounting/accountsList.php [L]
+RewriteRule ^cashflow/list$ /modules/accounting/cumulativeCashFlowList.php [L]
+RewriteRule ^vatreturns/list$ /modules/accounting/netVATReturns.php [L]
+RewriteRule ^vat-summary/(Q[1-4])/(\d{4})/?$ /modules/accounting/vatSummary.php?quarter=$1&year=$2 [L,QSA,NC]
+RewriteRule ^invoicearchival/list$ /modules/accounting/invoiceArchival.php [L]
+RewriteRule ^archival-summary/(Q[1-4])/(\d{4})/?$ /modules/accounting/archivalSummary.php?quarter=$1&year=$2 [L,QSA,NC]
+RewriteRule ^trialbalance/list$ /modules/accounting/trialBalance.php [L]
+RewriteRule ^balancesheet/list$ /modules/accounting/balanceSheet.php [L]
+RewriteRule ^profitloss/statement$ /modules/accounting/profitLossStatement.php [L]
+RewriteRule ^executivesummary/statement$ /modules/accounting/executiveSummaryStatement.php [L]
+RewriteRule ^partnerledger/report$ /modules/accounting/partnerLedgerReport.php [L]
+
+RewriteCond %{REQUEST_URI} ^/vat-summary/ [NC]
+RewriteRule !^vat-summary/(Q[1-4])/(\d{4})/?$ /vatreturns/list [L,R=302]
+
+RewriteCond %{REQUEST_URI} ^/archival-summary/ [NC]
+RewriteRule !^archival-summary/(Q[1-4])/(\d{4})/?$ /invoicearchival/list [L,R=302]
+
+
+#Inventory
+RewriteRule ^inventory/list$ /modules/inventory/list.php [L]
+
+# Customers
+RewriteRule ^customers/list$ /modules/customers/list.php [L]
+RewriteRule ^customers/new$ /modules/customers/list.php?addnew [L]
+RewriteRule ^customers/view/([^/]*)$ /modules/customers/view.php?custID=$1 [L]
+RewriteRule ^customers/view([^/]*)$ /modules/customers/view.php?custID=$1 [L]
+
+# Suppliers
+RewriteRule ^suppliers/list$ /modules/suppliers/list.php [L]
+RewriteRule ^suppliers/new$ /modules/suppliers/list.php?addnew [L]
+RewriteRule ^suppliers/view/([^/]*)$ /modules/suppliers/view.php?supplierID=$1 [L]
+RewriteRule ^suppliers/view([^/]*)$ /modules/suppliers/view.php?supplierID=$1 [L]
+
+# Payment Terms
+RewriteRule ^paymentterms/list$ /modules/settings/finance&accounting/paymentterms/list.php [L]
+
+# Document Settings
+RewriteRule ^document/edit/([^/]*)$ /modules/settings/documentsettings/edit.php?documentID=$1 [L]
+RewriteRule ^document/edit([^/]*)$ /modules/settings/documentsettings/edit.php?documentID=$1 [L]
+
+#Users
+RewriteRule ^users/list$ /modules/settings/usermanagement/users/list.php [L]
+RewriteRule ^users/new$ /modules/settings/usermanagement/users/list.php?addnew [L]
+RewriteRule ^users/edit/([^/]*)$ /modules/settings/usermanagement/users/edit.php?userID=$1 [L]
+RewriteRule ^users/edit([^/]*)$ /modules/settings/usermanagement/users/edit.php?userID=$1 [L]
+
+#Company Assets
+RewriteRule ^companyassets/list$ /modules/settings/usermanagement/companyassets/list.php [L]
+
+#Brands
+RewriteRule ^brands/list$ /modules/brands/list.php [L]
+RewriteRule ^brands/new$ /modules/brands/list.php?addnew [L]
+RewriteRule ^brands/edit/([^/]*)$ /modules/brands/edit.php?brandID=$1 [L]
+RewriteRule ^brands/edit([^/]*)$ /modules/brands/edit.php?brandID=$1 [L]
+
+#Spare Parts
+RewriteRule ^spareparts/list$ /modules/spareparts/list.php [L]
+RewriteRule ^spareparts/new$ /modules/spareparts/list.php?addnew [L]
+RewriteRule ^spareparts/edit/([^/]*)$ /modules/spareparts/edit.php?sparepartID=$1 [L]
+RewriteRule ^spareparts/edit([^/]*)$ /modules/spareparts/edit.php?sparepartID=$1 [L]
+
+#Categories and Services
+RewriteRule ^categories/list$ /modules/categories/list.php [L]
+RewriteRule ^services/list$ /modules/services/list.php [L]
+
+#Machines
+RewriteRule ^machines/list$ /modules/machines/list.php [L]
+RewriteRule ^machines/new$ /modules/machines/list.php?addnew [L]
+RewriteRule ^machines/edit/([^/]*)$ /modules/machines/edit.php?machineID=$1 [L]
+RewriteRule ^machines/edit([^/]*)$ /modules/machines/edit.php?machineID=$1 [L]
+
+#Roles
+RewriteRule ^roles/list$ /modules/roles/list.php [L]
+RewriteRule ^roles/users/list$ /modules/roles/users/list.php [L]
+
+##Spare parts
+#RewriteRule ^spareparts/list$ /modules/spare-parts/list.php [L]
+
+
+# Redirect /quotation/list/completed to /modules/quotations/list.php?q=completed
+RewriteRule ^quotation/list/completed$ /modules/quotations/list.php?q=completed [L]
+
+
+####
+####Consultation
+####
+##PROPOSAL
+RewriteRule ^consultation/proposal/view/([^/]*)$ /modules/publicview/consultation_proposal_view.php?documentID=$1 [L]
+RewriteRule ^consultation/proposal/list$ /modules/consultation/proposals_list.php [L]
+RewriteRule ^consultation/proposal/new$ /modules/consultation/proposal_new.php [L]
+RewriteRule ^consultation/proposal/edit$ /modules/consultation/proposal_edit.php [L]
+
+RewriteRule ^consultation/proposal/view/([^/]*)$ /modules/publicview/consultation_proposal_view.php?documentID=$1 [L]
+RewriteRule ^consultation/proposal/view([^/]*)$ /modules/publicview/consultation_proposal_view.php?documentID=$1 [L]
+
+RewriteRule ^consultation/proposaltemplates$ /modules/consultation/proposal_template_new_edit.php [L]
+RewriteRule ^consultation/proposaltemplates/new([^/]*)$ /modules/consultation/proposal_template_new_edit.php?templateID=$1 [L]
+RewriteRule ^consultation/proposaltemplates/edit([^/]*)$ /modules/consultation/proposal_template_new_edit.php?templateID=$1 [L]
+
+##SMA
+RewriteRule ^consultation/smatemplates$ /modules/consultation/sma_template_new_edit.php [L]
+RewriteRule ^consultation/smatemplates/new([^/]*)$ /modules/consultation/sma_template_new_edit.php?templateID=$1 [L]
+RewriteRule ^consultation/smatemplates/edit([^/]*)$ /modules/consultation/sma_template_new_edit.php?templateID=$1 [L]
+RewriteRule ^consultation/sma/list$ /modules/consultation/sma_list.php [L]
+RewriteRule ^consultation/sma/edit$ /modules/consultation/sma_edit.php [L]
+
+RewriteRule ^consultation/proposal/list$ /modules/consultation/proposals_list.php [L]
+RewriteRule ^consultation/proposal/new$ /modules/consultation/proposal_new.php [L]
+
+RewriteRule ^consultation/proposaltemplates$ /modules/consultation/proposal_template_new_edit.php [L]
+RewriteRule ^consultation/proposaltemplates/new([^/]*)$ /modules/consultation/proposal_template_new_edit.php?templateID=$1 [L]
+RewriteRule ^consultation/proposaltemplates/edit([^/]*)$ /modules/consultation/proposal_template_new_edit.php?templateID=$1 [L]
+
+
+#Quotation
+RewriteRule ^consultation/categories$ /modules/consultation/categories.php [L]
+RewriteRule ^consultation/services$ /modules/consultation/services_list.php [L]
+RewriteRule ^consultation/services$ /modules/consultation/services_list.php [L]
+RewriteRule ^consultation/quotation/list$ /modules/consultation/quotations_list.php [L]
+RewriteRule ^consultation/quotation/new$ /modules/consultation/quotation_new.php [L]
+RewriteRule ^consultation/quotation/edit/([^/]*)$ /modules/consultation/quotation_edit.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/edit([^/]*)$ /modules/consultation/quotation_edit.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/view/([^/]*)$ /modules/publicview/consultation_quotation_customer_view.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/view([^/]*)$ /modules/publicview/consultation_quotation_customer_view.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/download/([^/]*)$ /modules/publicview/generate_pdf_consultation.php?isdownload=1&documentID=$1 [L]
+RewriteRule ^consultation/quotation/print/([^/]*)$ /modules/publicview/generate_pdf_consultation.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/preview/([^/]*)$ /modules/consultation/quotation_preview.php?documentID=$1 [L]
+RewriteRule ^consultation/quotation/preview([^/]*)$ /modules/consultation/quotation_preview.php?documentID=$1 [L]
+
+#SalesOrder
+RewriteRule ^consultation/salesorders/list$ /modules/consultation/salesorder_list.php [L]
+RewriteRule ^consultation/salesorders/edit/([^/]*)$ /modules/consultation/salesorder_edit.php?documentID=$1 [L]
+RewriteRule ^consultation/salesorders/edit([^/]*)$ /modules/consultation/salesorder_edit.php?documentID=$1 [L]
+
+# Consultation Invoice
+RewriteRule ^consultation/invoice/list$ /modules/consultation/invoice_list.php [L]
+RewriteRule ^consultation/invoice/new$ /modules/consultation/invoice_new.php [L]
+RewriteRule ^consultation/invoice/edit/([^/]*)$ /modules/consultation/invoice_edit.php?invoiceID=$1 [L]
+RewriteRule ^consultation/invoice/edit([^/]*)$ /modules/consultation/invoice_edit.php?invoiceID=$1 [L]
+
+RewriteRule ^consultation/team/list$ /modules/consultationteam/team_list.php [L]
+
+RewriteRule ^consultation/scheduler$ /modules/consultation/scheduler.php [L]
+RewriteRule ^payroll$ /modules/consultation/payroll.php [L]
+RewriteRule ^attendance$ /modules/consultation/attendance.php [L]
+
+##Consultation Procurement
+#Consultation RFP
+RewriteRule ^consultation/rfp/new$ /modules/consultation/rfp_new.php [L]
+RewriteRule ^consultation/rfp/list$ /modules/consultation/rfp_list.php [L]
+RewriteRule ^consultation/rfp/edit/([^/]*)$ /modules/consultation/rfp_edit.php?rfpID=$1 [L]
+
+#Consultation PO
+RewriteRule ^consultation/purchaseorder/new$ /modules/consultation/po_new.php [L]
+RewriteRule ^consultation/purchaseorder/list$ /modules/consultation/po_list.php [L]
+RewriteRule ^consultation/purchaseorder/edit/([^/]*)$ /modules/consultation/po_edit.php?poID=$1 [L]
+
+
+##Procurement
+#RFP
+RewriteRule ^rfp/new$ /modules/rfp/new.php [L]
+RewriteRule ^rfp/list$ /modules/rfp/list.php [L]
+RewriteRule ^rfp/edit/([^/]*)$ /modules/rfp/edit.php?rfpID=$1 [L]
+
+#PO
+RewriteRule ^purchaseorder/new$ /modules/purchaseorder/new.php [L]
+RewriteRule ^purchaseorder/list$ /modules/purchaseorder/list.php [L]
+RewriteRule ^purchaseorder/edit/([^/]*)$ /modules/purchaseorder/edit.php?poID=$1 [L]
+RewriteRule ^purchaseorder/receivegoods/([^/]*)$ /modules/purchaseorder/receivegoods.php?poID=$1 [L]
+
+#Chat
+RewriteRule ^chat$ /modules/chat/chat.php [L]
+
+#Projects
+RewriteRule ^projects$ /modules/consultation/projects_list.php [L]
+RewriteRule ^project/view/([^/]*)$ /modules/consultation/project_view.php?projectID=$1 [L]
+
+
+
+
+
+# Redirect /d/domain.com/users to userlist.php with query parameter
+#RewriteRule ^d/([^/]+)/users$ userlist.php?domain=$1 [L]
+
+# Handle other cases if needed
+# For example, general fallback to index.php
+# RewriteRule ^(.*)$ index.php [L]

@@ -1,0 +1,70 @@
+# ============================================================
+# OS, Editor, Cache
+# ============================================================
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# PHP / Composer
+# ============================================================
+vendor/
+composer.lock
+autoload.php
+
+# ============================================================
+# Sensitive Config Files
+# ============================================================
+includes/masterconfig.php
+includes/email_credentials.php
+
+# ============================================================
+# Storage / Uploads / Logs / Temp
+# ============================================================
+uploads/
+
+# ============================================================
+# System-generated migration/seed files (not needed for GitHub)
+# ============================================================
+migrations/
+seeders/
+run_migrations.php
+run_seeders.php
+
+# ============================================================
+# Debug / Test / Experimental Files
+# ============================================================
+apitest.php
+test.php
+dashboard2.php
+dashboardTest.php
+kendotry.html
+kendotry-new.html
+oldindex.html
+info.php
+genPass.php
+
+# ============================================================
+# Node / Webpack / Gulp / Yarn (not needed for PHP backend)
+# ============================================================
+package.json
+package-lock.json
+yarn.lock
+webpack.config.js
+gulpfile.js
+.prettierrc.json
+.prettierignore
+.eslintrc.json
+.eslintignore
+.browserslistrc
+.npmrc
+
+# ============================================================
+# Misc
+# ============================================================
+draw.drawio
+dbchangelog.log
+zeescheduler.php
+scheduler.php
+scheduler2.php
+testworkouts/

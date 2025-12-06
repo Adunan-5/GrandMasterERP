@@ -1,0 +1,2 @@
+[16-Nov-2025 07:32:19 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2247
+[16-Nov-2025 07:32:19 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2247

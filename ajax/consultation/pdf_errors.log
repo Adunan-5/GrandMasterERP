@@ -1,0 +1,408 @@
+[26-Jun-2025 08:16:48 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 86
+[26-Jun-2025 08:16:48 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 92
+[26-Jun-2025 08:16:48 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1048
+[26-Jun-2025 08:16:48 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:16:48 Europe/Berlin] PHP Deprecated:  DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:16:50 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1042
+[26-Jun-2025 08:16:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'consultationerpdb.invoice_line_items' doesn't exist in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(140): SafeMySQL->rawQuery('SELECT * FROM i...')
+#2 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php(299): SafeMySQL->query('SELECT * FROM i...', 11)
+#3 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php on line 466
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 86
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 92
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1048
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Deprecated:  DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1042
+[26-Jun-2025 08:17:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'consultationerpdb.invoice_line_items' doesn't exist in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(140): SafeMySQL->rawQuery('SELECT * FROM i...')
+#2 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php(299): SafeMySQL->query('SELECT * FROM i...', 11)
+#3 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php on line 466
+[26-Jun-2025 08:19:38 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 86
+[26-Jun-2025 08:19:38 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 92
+[26-Jun-2025 08:19:38 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1048
+[26-Jun-2025 08:19:38 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:19:38 Europe/Berlin] PHP Deprecated:  DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 162
+[26-Jun-2025 08:19:39 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 86
+[26-Jun-2025 08:19:39 Europe/Berlin] PHP Warning:  Undefined property: KeyDocument::$proformaInvoiceDateIssued in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_proforma_pdf.php on line 92
+[26-Jun-2025 08:19:39 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1048
+[11-Jul-2025 06:01:34 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\GGMConsultation/classes/InvoiceDocument.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\GGMConsultation\autoload.php on line 3
+[11-Jul-2025 06:01:34 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\GGMConsultation/classes/InvoiceDocument.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\GGMConsultation\autoload.php on line 3
+[11-Jul-2025 06:01:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "InvoiceDocument" not found in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 128
+[11-Jul-2025 06:03:35 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:03:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'consultationerpdb.invoice_line_items' doesn't exist in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php(140): SafeMySQL->rawQuery('SELECT * FROM i...')
+#2 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php(301): SafeMySQL->query('SELECT * FROM i...', 2)
+#3 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\phplibs\safemysql-master\safemysql.class.php on line 466
+[11-Jul-2025 06:05:04 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:05:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:07:56 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:07:57 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: preg_split(): Argument #2 ($subject) must be of type string, array given in C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\include\tcpdf_static.php:1807
+Stack trace:
+#0 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1807): preg_split('//u', Array, -1, 1)
+#1 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\include\tcpdf_fonts.php(2005): TCPDF_STATIC::pregSplit('//', 'u', Array, -1, 1)
+#2 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\tcpdf.php(6269): TCPDF_FONTS::UTF8StringToArray(Array, true, Array)
+#3 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\tcpdf.php(6367): TCPDF->getNumLines(Array, 75.508495762712, false, true, NULL, 0)
+#4 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php(426): TCPDF->getStringHeight(75.508495762712, Array)
+#5 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\include\tcpdf_static.php on line 1807
+[11-Jul-2025 06:09:14 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:09:44 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:10:04 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:10:04 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:10:04 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:10:24 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:10:25 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:10:25 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:11:41 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:11:41 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:11:41 Europe/Berlin] PHP Warning:  Undefined variable $manufacturerLabel in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 448
+[11-Jul-2025 06:11:41 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:11:41 Europe/Berlin] PHP Warning:  Undefined variable $manufacturerLabel in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 448
+[11-Jul-2025 06:12:14 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:12:14 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:12:14 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 421
+[11-Jul-2025 06:12:45 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:12:45 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:12:45 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:13:32 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:13:32 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:13:32 Europe/Berlin] PHP Warning:  Undefined array key "brand" in C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php on line 418
+[11-Jul-2025 06:14:30 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:23:07 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\GGMConsultation/classes/IntlDateFormatter.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\GGMConsultation\autoload.php on line 3
+[11-Jul-2025 06:23:07 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\GGMConsultation/classes/IntlDateFormatter.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\GGMConsultation\autoload.php on line 3
+[11-Jul-2025 06:23:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "IntlDateFormatter" not found in C:\xampp\htdocs\GGMConsultation\includes\helper.php:1265
+Stack trace:
+#0 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php(92): gregorianToHijri('2025-07-10 00:0...')
+#1 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\tcpdf.php(3624): CustomPDF->Header()
+#2 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\tcpdf.php(3291): TCPDF->setHeader()
+#3 C:\xampp\htdocs\GGMConsultation\vendor\tecnickcom\tcpdf\tcpdf.php(3203): TCPDF->startPage('', '', false)
+#4 C:\xampp\htdocs\GGMConsultation\ajax\consultation\generate_invoice_pdf.php(151): TCPDF->AddPage()
+#5 {main}
+  thrown in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1265
+[11-Jul-2025 06:27:20 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:29:00 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:29:23 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:31:33 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:38:30 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:38:43 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:42:38 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:43:30 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[11-Jul-2025 06:55:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GGMConsultation\includes\helper.php on line 1246
+[15-Jul-2025 08:18:29 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:20:54 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:05 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:31 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:37 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:43 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:48 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:21:53 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[15-Jul-2025 08:22:05 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[24-Sep-2025 06:27:12 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2180
+[24-Sep-2025 09:32:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 533
+[24-Sep-2025 09:32:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 534
+[24-Sep-2025 09:32:22 Europe/Berlin] PHP Warning:  Undefined property: ConsultationKeyDocument::$customerID in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 34
+[24-Sep-2025 09:32:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:33:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 533
+[24-Sep-2025 09:33:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 534
+[24-Sep-2025 09:33:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:33:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 533
+[24-Sep-2025 09:33:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 534
+[24-Sep-2025 09:33:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:33:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 533
+[24-Sep-2025 09:33:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 534
+[24-Sep-2025 09:33:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:33:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 533
+[24-Sep-2025 09:33:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 534
+[24-Sep-2025 09:33:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:34:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'documentID' in 'where clause' in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(466): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php(233): SafeMySQL->rawQuery('SELECT * FROM c...')
+#2 C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php(42): SafeMySQL->getRow('SELECT * FROM c...', 15)
+#3 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\phplibs\safemysql-master\safemysql.class.php on line 466
+[24-Sep-2025 09:35:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:35:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:35:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 444
+[24-Sep-2025 09:53:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProposalNumberFromConsultationDocumentID() in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php:203
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 203
+[24-Sep-2025 09:54:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:54:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:54:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 444
+[24-Sep-2025 09:56:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:56:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:56:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 444
+[24-Sep-2025 09:56:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:56:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 443
+[24-Sep-2025 09:56:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 444
+[24-Sep-2025 10:04:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function numberToWords() in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php:232
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 232
+[24-Sep-2025 10:04:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function numberToWords() in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php:232
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 232
+[24-Sep-2025 14:16:26 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:35:57 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:36:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:39:01 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:40:34 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:41:59 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:43:34 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:43:34 Europe/Berlin] PHP Warning:  Undefined variable $quotationHeaderHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_invoice_pdf.php on line 276
+[24-Sep-2025 14:44:19 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:44:19 Europe/Berlin] PHP Warning:  Undefined variable $quotationHeaderHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_invoice_pdf.php on line 276
+[24-Sep-2025 14:44:49 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:45:41 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:51:39 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:53:43 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 14:53:43 Europe/Berlin] PHP Warning:  Undefined variable $quotationHeaderHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_invoice_pdf.php on line 269
+[24-Sep-2025 14:53:43 Europe/Berlin] PHP Warning:  Undefined variable $quotationHeaderHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_invoice_pdf.php on line 285
+[24-Sep-2025 15:08:55 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[24-Sep-2025 15:11:02 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:06:03 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:06:50 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:07:02 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:09:53 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:13:12 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:15:00 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:16:36 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:17:06 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:17:43 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:17:43 Europe/Berlin] PHP Warning:  Undefined variable $noteHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_gdn.php on line 345
+[25-Sep-2025 07:19:56 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:20:36 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:20:57 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:24:32 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 07:30:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2198
+[25-Sep-2025 08:11:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2209
+[25-Sep-2025 08:11:37 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2209
+[25-Sep-2025 08:12:26 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2209
+[25-Sep-2025 08:31:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 555
+[25-Sep-2025 08:31:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 555
+[25-Sep-2025 08:31:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 556
+[25-Sep-2025 08:31:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:05:00 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:08:11 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:12:44 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:12:55 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:14:54 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:16:48 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:17:20 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:18:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:19:59 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:22:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:23:23 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:25:34 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:27:37 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:29:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 11:29:47 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:38:29 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:42:07 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:42:38 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:43:04 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:43:25 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:43:53 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:49:20 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:50:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 12:50:57 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:00:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:00:32 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:01:51 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:03:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:04:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:04:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:04:41 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:04:55 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:05:07 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:05:40 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:05:55 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:06:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[25-Sep-2025 13:06:26 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 300
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 300
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 300
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 321
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 324
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 327
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 331
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 06:57:49 Europe/Berlin] PHP Warning:  Undefined variable $rowHeight in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 337
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontCurrency in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 302
+[29-Sep-2025 07:46:40 Europe/Berlin] PHP Warning:  Undefined property: Quotation_PDF::$fontRegular in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 305
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 429
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 430
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 431
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 432
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 433
+[29-Sep-2025 08:38:39 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 434
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 430
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 431
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 432
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 433
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 434
+[29-Sep-2025 08:39:33 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 435
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 429
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 430
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 431
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 432
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 433
+[29-Sep-2025 08:39:58 Europe/Berlin] PHP Warning:  Undefined variable $font in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 434
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 10:05:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6304
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 353
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesName in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[29-Sep-2025 14:33:46 Europe/Berlin] PHP Warning:  Undefined variable $nbLinesDesc in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 357
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 767
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 43
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 43
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 44
+[30-Sep-2025 06:41:26 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 44
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 758
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Undefined variable $pageBottom in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 404
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:41:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 758
+[30-Sep-2025 06:42:07 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 767
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 43
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 43
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 44
+[30-Sep-2025 06:42:49 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 44
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\GrandMasterERP\vendor\tecnickcom\tcpdf\tcpdf.php on line 6395
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 758
+[30-Sep-2025 06:42:52 Europe/Berlin] PHP Warning:  Undefined variable $pageBottom in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 404
+[30-Sep-2025 06:42:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:42:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 757
+[30-Sep-2025 06:42:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 758
+[30-Sep-2025 07:24:12 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 07:29:16 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 07:30:11 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 07:31:58 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 07:35:37 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 08:09:18 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[30-Sep-2025 08:09:33 Europe/Berlin] PHP Warning:  Undefined array key "documentID" in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 768
+[30-Sep-2025 08:40:13 Europe/Berlin] PHP Warning:  Undefined variable $totalDiscount in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 317
+[30-Sep-2025 08:44:59 Europe/Berlin] PHP Warning:  Undefined variable $totalDiscount in C:\xampp\htdocs\GrandMasterERP\ajax\consultation\generate_quotation.php on line 317
+[30-Sep-2025 08:58:59 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[30-Sep-2025 13:33:22 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[02-Oct-2025 07:24:25 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2232
+[30-Oct-2025 16:51:51 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2256
+[30-Oct-2025 17:31:50 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\GrandMasterERP\includes\helper.php on line 2256
